@@ -18,6 +18,8 @@ public class OperasionLogic {
 
             String a = ("Пользователь " + account1.persone.name +" перевел со счета " + account1.bill.BillNomber +" сумму "+ sum + " пользователю " + account2.persone.name +" на счет " + account2.bill.BillNomber+".");
             account1.bill.LastOperashion = (a);
+            System.out.println(bill1.Money);
+            System.out.println(account1.bill.LastOperashion);
 
 
         } else {
