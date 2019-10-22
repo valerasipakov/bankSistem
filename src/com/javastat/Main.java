@@ -32,8 +32,7 @@ public class Main {
 
         OperasionLogic payment = new OperasionLogic();
         payment.payment(account1, account2, 500);
-        System.out.println(bill1.Money);
-        System.out.println(account1.bill.LastOperashion);
+       
 
 
     }
